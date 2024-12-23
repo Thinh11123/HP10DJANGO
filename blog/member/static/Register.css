@@ -1,0 +1,155 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f9f5ff;    
+
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  padding: 20px 50px;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+.contact-btn {
+  background: #d9a4ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+main {
+  display: flex; /* Kích hoạt flexbox */
+  justify-content: center; /* Căn giữa theo chiều ngang */
+  align-items: center;
+  flex: 1; /* Phân chia phần trăm chiều rộng 1:1 */
+  padding: 3%;
+}
+
+.container {
+  display: flex;
+  width: 80%;
+  max-width: 1200px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.image-section {
+  flex: 1;
+  background: #ebe4ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.image-section img {
+  width: 80%;
+  max-width: 400px;
+}
+form{
+  display:flex;
+  flex-direction: column;
+}
+
+.form-section {
+  flex: 1;
+  padding: 40px;
+  background: #f5f1ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-section h2 {
+  text-align: center;
+  color: #4a3f8c;
+  margin-bottom: 20px;
+}
+
+.form-section label {
+  margin-bottom: 10px;
+  font-size: 0.9em;
+  color: #6a67a3;
+}
+
+.form-section input {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #d1cfe7;
+  border-radius: 5px;
+}
+
+.form-section button {
+  padding: 10px;
+  background: #6c63ff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.form-section button:hover {
+  background: #5751d6;
+}
+
+.form-section .login-link {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: #6a67a3;
+}
+
+.form-section .login-link a {
+  color: #6c63ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.form-section .social-icons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.form-section .social-icons i {
+  margin: 0 10px;
+  font-size: 1.5em;
+  color: #6c63ff;
+  cursor: pointer;
+}

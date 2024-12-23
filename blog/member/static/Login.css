@@ -1,0 +1,160 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  /* padding: 0; */
+  background: #f9f5ff;
+  /* justify-content: center; */
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+  
+  .navbar .logo {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  
+  nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+  .contact-btn {
+    background: #d9a4ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  .contact-btn:hover {
+    background-color: #a066ff;
+  }
+
+main {
+    display: flex; /* Kích hoạt flexbox */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center;
+    flex: 1; /* Phân chia phần trăm chiều rộng 1:1 */
+    padding: 3%;
+  }
+  
+.container {
+  display: flex;
+  width: 80%;
+  /* height: 100vh; */
+  max-width: 1200px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+form {
+  display: flex; /* Kích hoạt Flexbox */
+  flex-direction: column; /* Xếp các phần tử theo chiều dọc */
+  align-items: center; /* Căn giữa theo chiều ngang */
+  justify-content: center; /* Căn giữa theo chiều dọc */
+   /* Đảm bảo chiều cao form bao phủ toàn bộ màn hình */
+}
+
+button {
+  margin-top: 10px; /* Tạo khoảng cách giữa nút và các phần tử trên */
+}
+.form-section {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #f5f1ff;
+}
+
+.form-section h2 {
+  margin-bottom: 20px;
+  color: #4a3f8c;
+  text-align: center;
+}
+
+.form-section label {
+  margin-bottom: 10px;
+  font-size: 0.9em;
+  color: #6a67a3;
+}
+
+.form-section input {
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #d1cfe7;
+  border-radius: 5px;
+}
+
+.form-section button {
+  padding: 10px;
+  background: #6c63ff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.form-section button:hover {
+  background: #5751d6;
+}
+
+.form-section .register {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 0.9em;
+  color: #6a67a3;
+}
+
+.form-section .register a {
+  color: #6c63ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.form-section .social-icons {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.form-section .social-icons i {
+  margin: 0 10px;
+  font-size: 1.5em;
+  color: #6c63ff;
+  cursor: pointer;
+}
+
+.image-section {
+  flex: 1;
+  background: #ebe4ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.image-section img {
+  width: 80%;
+  max-width: 400px;
+}

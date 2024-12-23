@@ -1,0 +1,211 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f9f6fc;
+    
+
+}
+  /* header */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar .logo {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+  }
+  .nav-links li a:hover {
+    text-decoration: underline;
+  }
+  a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+  }
+  .contact-btn {
+    background: #d9a4ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  /* main  */
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .text-container {
+    max-width: 50%;
+  }
+  
+  .text-container h1 {
+    font-size: 48px;
+    color: #333;
+  }
+  
+  .text-container h1 span {
+    color: #9d65f0;
+  }
+  
+  .text-container p {
+    font-size: 18px;
+    color: #777;
+    margin: 20px 0;
+  }
+  
+  .text-container .logos img {
+    max-width: 100px;
+    margin-right: 10px;
+  }
+  
+  .text-container .contact-us {
+    margin-top: 20px;
+    background: #9d65f0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+  }
+  
+
+/* Why Lunar Strategy Section */
+.why-lunar-strategy {
+    background: linear-gradient(to bottom, #fff, #f4eaff);
+    padding: 60px 20px;
+    text-align: center;
+    
+  }
+  
+  .why-lunar-strategy .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .why-lunar-strategy .content {
+    flex: 1 1 50%;
+    max-width: 500px;
+  }
+  
+  .why-lunar-strategy .content h2 {
+    font-size: 28px;
+    color: #333;
+  }
+  
+  .why-lunar-strategy .content p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    margin: 20px 0;
+  }
+  
+  .why-lunar-strategy .cta-btn {
+    background: #6c63ff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .why-lunar-strategy .image {
+    flex: 1 1 50%;
+    text-align: center;
+  }
+  
+  .why-lunar-strategy .image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Footer */
+  .footer {
+    background: #6c63ff;
+    color: white;
+    padding: 40px 20px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-logo h3 {
+    font-size: 24px;
+  }
+  
+  .footer-logo p {
+    font-size: 14px;
+    margin: 10px 0;
+    line-height: 1.6;
+  }
+  
+  .footer-links {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .footer-links h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links ul li {
+    margin: 5px 0;
+  }
+  
+  .footer-links ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+  }
+  
+  .podcast-placeholder {
+    background: rgba(255, 255, 255, 0.1);
+    height: 100px;
+    width: 200px;
+    border-radius: 10px;
+  }
+  

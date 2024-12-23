@@ -1,0 +1,65 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="{% static 'Login.css' %}">
+  <style>
+    body {
+      background-image: url("{% static 'images/Background.png' %}");
+    }
+    .contact-btn:hover {
+    background-color: #a066ff;
+  }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">LUNAR STRATEGY</div>
+      <ul class="nav-links">
+        <li><a href="{% url 'Home' %}">Home</a></li>
+        <li><a href="{% url 'Blog' %}">Blog</a></li>
+        <li><a href="{% url 'Login' %}">Login</a></li>
+        <!-- <li><a href="#">Team Lunar</a></li>
+        <li><a href="#">Blog</a></li> -->
+      </ul>
+      <button class="contact-btn"><a  href="{% url 'contact' %}">Contact Us</a></button>
+    </nav>
+  </header>
+
+
+  <main>
+    <div class="container">
+      <div class="form-section">
+        <h2>Welcome Back!</h2>
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" />
+        
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" />
+        
+            <button type="submit"><a style="text-decoration: none;color: white;" href="{% url 'Home' %}">Login</a></button>
+        </form>
+        <div class="register">
+          Don’t have an account? <a href="{% url 'Register' %}">Register</a>
+        </div>
+        <div class="social-icons">
+          <i>🔵</i> <!-- Replace with actual social media icons -->
+          <i>🟢</i>
+          <i>🟣</i>
+        </div>
+      </div>
+      <div class="image-section">
+        <img src="{% static 'images/login.png' %}" alt="Laptop Illustration">
+      </div>
+    </div>
+  </main>
+  
+  
+</body>
+</html>
